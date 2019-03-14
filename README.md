@@ -1,4 +1,4 @@
 # jogo-da-velha
-Um jogo bem simples
+♟ Jogo da velha feito totalmente em java usando a sua própria interface gráfica.
 
 
