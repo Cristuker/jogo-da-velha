@@ -371,7 +371,7 @@ public String PlayerM() {
             JOptionPane.showMessageDialog(null, "Parabéns jogador: " + user2 + " você venceu!");
             reset();
         } else {
-//Condicional para quando der velha
+//Condicional para quando der velha.
             if (!btn[1].equals("")&&!btn[2].equals("")&&!btn[3].equals("")&&!btn[4].equals("")&&!btn[5].equals("")&&!btn[6].equals("")&&!btn[7].equals("")&&!btn[8].equals("")&&!btn[9].equals("")) {
                 JOptionPane.showMessageDialog(null, "Deu velha");
                 reset();
