@@ -1,9 +1,5 @@
 package jogodavelha2.pkg0;
 
-import java.io.File;
-import java.io.IOException;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import javax.swing.JOptionPane;
 
 public class JogoTela extends javax.swing.JFrame {
@@ -253,7 +249,7 @@ public class JogoTela extends javax.swing.JFrame {
     }//GEN-LAST:event_tgbtn9ActionPerformed
 
     private void btnResetActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnResetActionPerformed
-      reset();
+        reset();
     }//GEN-LAST:event_btnResetActionPerformed
 
     private void btnExitActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnExitActionPerformed
@@ -311,73 +307,77 @@ public String PlayerM() {
 //Esse metódo testa a condição de vitória.     
 //-----------------Teste de vitória do User---------------------------------------------------------------------------------------------------------------
         if (btn[1].equalsIgnoreCase(user) && btn[2].equalsIgnoreCase(user) && btn[3].equalsIgnoreCase(user)) {
-            JOptionPane.showMessageDialog(null,"Parabéns jogador: " + user + " você venceu!");
+            JOptionPane.showMessageDialog(null, "Parabéns jogador: " + user + " você venceu!");
             reset();
         }
 
         if (btn[4].equalsIgnoreCase(user) && btn[5].equalsIgnoreCase(user) && btn[6].equalsIgnoreCase(user)) {
-            JOptionPane.showMessageDialog(null,"Parabéns jogador: " + user + " você venceu!");
+            JOptionPane.showMessageDialog(null, "Parabéns jogador: " + user + " você venceu!");
             reset();
         }
         if (btn[7].equalsIgnoreCase(user) && btn[8].equalsIgnoreCase(user) && btn[9].equalsIgnoreCase(user)) {
-            JOptionPane.showMessageDialog(null,"Parabéns jogador: " + user + " você venceu!");
+            JOptionPane.showMessageDialog(null, "Parabéns jogador: " + user + " você venceu!");
             reset();
         }
         if (btn[1].equalsIgnoreCase(user) && btn[4].equalsIgnoreCase(user) && btn[7].equalsIgnoreCase(user)) {
-            JOptionPane.showMessageDialog(null,"Parabéns jogador: " + user + " você venceu!");
+            JOptionPane.showMessageDialog(null, "Parabéns jogador: " + user + " você venceu!");
             reset();
         }
         if (btn[2].equalsIgnoreCase(user) && btn[5].equalsIgnoreCase(user) && btn[8].equalsIgnoreCase(user)) {
-            JOptionPane.showMessageDialog(null,"Parabéns jogador: " + user + " você venceu!");
+            JOptionPane.showMessageDialog(null, "Parabéns jogador: " + user + " você venceu!");
             reset();
         }
         if (btn[3].equalsIgnoreCase(user) && btn[6].equalsIgnoreCase(user) && btn[9].equalsIgnoreCase(user)) {
-            JOptionPane.showMessageDialog(null,"Parabéns jogador: " + user + " você venceu!");
+            JOptionPane.showMessageDialog(null, "Parabéns jogador: " + user + " você venceu!");
             reset();
         }
         if (btn[1].equalsIgnoreCase(user) && btn[5].equalsIgnoreCase(user) && btn[9].equalsIgnoreCase(user)) {
-            JOptionPane.showMessageDialog(null,"Parabéns jogador: " + user + " você venceu!");
+            JOptionPane.showMessageDialog(null, "Parabéns jogador: " + user + " você venceu!");
             reset();
-        }
-        if (btn[3].equalsIgnoreCase(user) && btn[5].equalsIgnoreCase(user) && btn[7].equalsIgnoreCase(user)) {
-            JOptionPane.showMessageDialog(null,"Parabéns jogador: " + user + " você venceu!");
+        } else if (btn[3].equalsIgnoreCase(user) && btn[5].equalsIgnoreCase(user) && btn[7].equalsIgnoreCase(user)) {
+            JOptionPane.showMessageDialog(null, "Parabéns jogador: " + user + " você venceu!");
             reset();
         }
         //-----------Teste de vitória do User2---------------------------------------------------------------------------------------------------------------
         if (btn[1].equalsIgnoreCase(user2) && btn[2].equalsIgnoreCase(user2) && btn[3].equalsIgnoreCase(user2)) {
-            JOptionPane.showMessageDialog(null,"Parabéns jogador: " + user2 + " você venceu!");
+            JOptionPane.showMessageDialog(null, "Parabéns jogador: " + user2 + " você venceu!");
             reset();
         }
         if (btn[4].equalsIgnoreCase(user2) && btn[5].equalsIgnoreCase(user2) && btn[6].equalsIgnoreCase(user2)) {
-            JOptionPane.showMessageDialog(null,"Parabéns jogador: " + user2 + " você venceu!");
+            JOptionPane.showMessageDialog(null, "Parabéns jogador: " + user2 + " você venceu!");
             reset();
         }
         if (btn[7].equalsIgnoreCase(user2) && btn[8].equalsIgnoreCase(user2) && btn[9].equalsIgnoreCase(user2)) {
-            JOptionPane.showMessageDialog(null,"Parabéns jogador: " + user2 + " você venceu!");
+            JOptionPane.showMessageDialog(null, "Parabéns jogador: " + user2 + " você venceu!");
             reset();
         }
         if (btn[1].equalsIgnoreCase(user2) && btn[4].equalsIgnoreCase(user2) && btn[7].equalsIgnoreCase(user2)) {
-            JOptionPane.showMessageDialog(null,"Parabéns jogador: " + user2 + " você venceu!");
+            JOptionPane.showMessageDialog(null, "Parabéns jogador: " + user2 + " você venceu!");
             reset();
         }
         if (btn[2].equalsIgnoreCase(user2) && btn[5].equalsIgnoreCase(user2) && btn[8].equalsIgnoreCase(user2)) {
-            JOptionPane.showMessageDialog(null,"Parabéns jogador: " + user2 + " você venceu!");
+            JOptionPane.showMessageDialog(null, "Parabéns jogador: " + user2 + " você venceu!");
             reset();
         }
         if (btn[3].equalsIgnoreCase(user2) && btn[6].equalsIgnoreCase(user2) && btn[9].equalsIgnoreCase(user2)) {
-            JOptionPane.showMessageDialog(null,"Parabéns jogador: " + user2 + " você venceu!");
+            JOptionPane.showMessageDialog(null, "Parabéns jogador: " + user2 + " você venceu!");
             reset();
         }
         if (btn[1].equalsIgnoreCase(user2) && btn[5].equalsIgnoreCase(user2) && btn[9].equalsIgnoreCase(user2)) {
-            JOptionPane.showMessageDialog(null,"Parabéns jogador: " + user2 + " você venceu!");
+            JOptionPane.showMessageDialog(null, "Parabéns jogador: " + user2 + " você venceu!");
             reset();
         }
         if (btn[3].equalsIgnoreCase(user2) && btn[5].equalsIgnoreCase(user2) && btn[7].equalsIgnoreCase(user2)) {
-            JOptionPane.showMessageDialog(null,"Parabéns jogador: " + user2 + " você venceu!");
+            JOptionPane.showMessageDialog(null, "Parabéns jogador: " + user2 + " você venceu!");
             reset();
+        } else {
+
+            if (!btn[1].equals("")&&!btn[2].equals("")&&!btn[3].equals("")&&!btn[4].equals("")&&!btn[5].equals("")&&!btn[6].equals("")&&!btn[7].equals("")&&!btn[8].equals("")&&!btn[9].equals("")) {
+                JOptionPane.showMessageDialog(null, "Deu velha");
+                reset();
+            }
 
         }
-
     }
 
     public void reset() {
